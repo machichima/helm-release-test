@@ -1,0 +1,45 @@
+apiVersion: v1
+entries:
+  kuberay-apiserver:
+  - apiVersion: v2
+    created: "2026-10-16T05:10:40.64093116Z"
+    description: A Helm chart for kuberay-apiserver
+    digest: a30c279c97b8f51e6b40fce754a5ef69941d47db4aa1901d33bc34fef7cd9a04
+    name: kuberay-apiserver
+    type: application
+    urls:
+    - https://github.com/machichima/helm-release-test/releases/download/kuberay-apiserver-9.9.0/kuberay-apiserver-9.9.0.tgz
+    version: 9.9.0
+  kuberay-operator:
+  - apiVersion: v2
+    created: "2026-10-16T05:10:40.911860542Z"
+    description: A Helm chart for deploying the Kuberay operator on Kubernetes.
+    digest: 757baa55c7f89e66dcaf9b9ecea3cec1f1dbe7ec5b4154804f7aa1ce2594bd22
+    home: https://github.com/ray-project/kuberay
+    icon: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png
+    keywords:
+    - ray
+    - ray operator
+    - distributed computing
+    - data processing
+    - machine learning
+    - deep learning
+    - hyperparameter tuning
+    - reinforcement learning
+    - model serving
+    name: kuberay-operator
+    type: application
+    urls:
+    - https://github.com/machichima/helm-release-test/releases/download/kuberay-operator-9.9.0/kuberay-operator-9.9.0.tgz
+    version: 9.9.0
+  ray-cluster:
+  - apiVersion: v1
+    created: "2026-10-16T05:10:41.080505533Z"
+    description: A Helm chart for Kubernetes
+    digest: 3e03b69a323c6f4d02f4f4ca4c81a94f1238770c01771d3c88e97d74da859ae9
+    icon: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png
+    name: ray-cluster
+    urls:
+    - https://github.com/machichima/helm-release-test/releases/download/ray-cluster-9.9.0/ray-cluster-9.9.0.tgz
+    version: 9.9.0
+generated: "2026-10-16T05:10:41.080514189Z"
